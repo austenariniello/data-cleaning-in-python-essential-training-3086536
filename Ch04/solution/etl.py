@@ -53,6 +53,7 @@ def is_valid_row(row):
 
 def etl(csv_file, db_file):
     df = pd.read_csv(csv_file, parse_dates=['time'])
+    print(type(df['time'][0]))
 
     bad_rows = df[~df.apply(is_valid_row, axis=1)]
     if len(bad_rows) > 0:

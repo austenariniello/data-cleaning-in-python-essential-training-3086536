@@ -12,3 +12,5 @@ df = pd.melt(
     var_name='metric',
 )
 df
+
+# %%

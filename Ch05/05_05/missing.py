@@ -26,3 +26,4 @@ prices
 # %%
 df['price'].fillna(prices, inplace=True)
 df
+# %%

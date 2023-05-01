@@ -30,3 +30,4 @@ def fix_col(col):
 
 df.rename(columns=fix_col, inplace=True)
 df
+# %%

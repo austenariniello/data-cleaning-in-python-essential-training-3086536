@@ -6,3 +6,5 @@ df = pd.read_csv('ships.csv')
 df
 # %%
 df.dtypes
+
+# %%

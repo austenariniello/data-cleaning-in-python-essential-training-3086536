@@ -12,3 +12,5 @@ mask
 # %%
 df = df[~mask]
 df
+
+# %%

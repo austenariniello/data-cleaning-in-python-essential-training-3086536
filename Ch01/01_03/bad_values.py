@@ -23,3 +23,5 @@ z_score = (mem - mem.mean())/mem.std()
 bad_mem = mem[z_score.abs() > 2]
 # bad_mem
 df.loc[bad_mem.index]
+
+# %%

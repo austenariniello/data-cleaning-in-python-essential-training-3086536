@@ -28,3 +28,5 @@ df
 
 # %%
 (df['end'] - df['start']).sum()
+
+# %%
